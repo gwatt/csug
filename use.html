@@ -811,7 +811,7 @@ the contrary when <tt>yang</tt> has not yet been defined.
 <p>
 <a name="./use:s13"></a>A subtle consequence of this useful quirk of the interaction environment is that
 the procedure
-<tt>free-identifier=?</tt> (Section&nbsp;<a href="tspl4/./syntax.html#g136">8.3</a> of <i>The Scheme Programming Language, 4th Edition</i>)
+<tt>free-identifier=?</tt> (Section&nbsp;<a href="http://scheme.com/tspl4/./syntax.html#g136">8.3</a> of <i>The Scheme Programming Language, 4th Edition</i>)
 does not consider unbound library identifiers to be equivalent to (as yet)
 undefined top-level identifiers, even if they have the
 same name, because the latter are actually assumed to be valid variable bindings.
@@ -1964,7 +1964,7 @@ arguments for which search tracing is desired.
 <p>
 Ordinarily, the search for
 boot files is limited to a set of
-default installation directories, but this may be overridden by setting
+installation directories, but this may be overridden by setting
 the environment variable <a name="./use:s99"></a><tt>SCHEMEHEAPDIRS</tt>.
 <tt>SCHEMEHEAPDIRS</tt> should be a colon-separated list of directories, listed in
 the order in which they should be searched.
@@ -1982,7 +1982,8 @@ searched after those in <tt>SCHEMEHEAPDIRS</tt>; otherwise, only those listed in
 Under Windows, semi-colons are used in place of colons, and one additional
 escape is recognized: "<tt>%x</tt>," which is replaced by the directory in
 which the executable file resides.
-The default search path under Windows consists only of "<tt>%x</tt>."
+The default search path under Windows consists of "<tt>%x</tt>"
+and "<tt>%x\..\..\boot\%m</tt>."
 The registry key <tt>HeapSearchPath</tt> in
 <tt>HKLM\SOFTWARE\Chez&nbsp;Scheme\csv<i>version</i></tt>, where
 <tt><i>version</i></tt> is the <i>Chez&nbsp;Scheme</i> version number, e.g.,
@@ -2008,7 +2009,7 @@ boot files.
 Copyright &copy; 2016 Cisco Systems, Inc.<br>
 Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a>
 (<a class=plain href="canned/copyright.html">full copyright notice.</a>).</br>
-Revised May 2016 for Chez Scheme Version 9.4<br>
+Revised May 2016 for Chez Scheme Version 9.4.1<br>
 <a class=plain href="canned/about.html">about this book</a>
 </tr></table>
 </body>

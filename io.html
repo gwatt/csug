@@ -21,7 +21,7 @@
 This chapter describes <i>Chez&nbsp;Scheme</i>'s generic port facility,
 operations on ports, and various <i>Chez&nbsp;Scheme</i> extensions to the
 standard set of input/output operations.
-See Chapter&nbsp;<a href="tspl4/./io.html#g121">7</a> of <i>The Scheme Programming Language, 4th Edition</i> or the Revised<sup>6</sup> Report
+See Chapter&nbsp;<a href="http://scheme.com/tspl4/./io.html#g121">7</a> of <i>The Scheme Programming Language, 4th Edition</i> or the Revised<sup>6</sup> Report
 on Scheme for a description of standard input/output operations.
 Definitions of a few sample generic ports are given in
 Section&nbsp;<a href="./io.html#g87">9.17</a>.
@@ -240,7 +240,7 @@ The Revised<sup>6</sup> Report requires that the universe of a file-options
 enumeration set must include <tt>no-create</tt>, <tt>no-fail</tt>,
 and <tt>no-truncate</tt>, whose meanings are described within the
 description of the <tt>file-options</tt> syntax in
-Section&nbsp;<a href="tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>.
+Section&nbsp;<a href="http://scheme.com/tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>.
 <i>Chez&nbsp;Scheme</i> defines a number of additional file options:
 
 <p>
@@ -1370,7 +1370,7 @@ is possible that another continuation created inside of <tt><i>procedure</i></tt
 invoked at a later time, returning control to <tt><i>procedure</i></tt>.
 If <tt><i>procedure</i></tt> does not return, an implementation is free to close the
 input port only if it can prove that the input port is no longer accessible.
-As shown in Section&nbsp;<a href="tspl4/./control.html#g102">5.6</a> of <i>The Scheme Programming Language, 4th Edition</i>, <tt>dynamic-wind</tt> may be used to
+As shown in Section&nbsp;<a href="http://scheme.com/tspl4/./control.html#g102">5.6</a> of <i>The Scheme Programming Language, 4th Edition</i>, <tt>dynamic-wind</tt> may be used to
 ensure that the port is closed if a continuation created outside of
 <tt><i>procedure</i></tt> is invoked.
 
@@ -1430,7 +1430,7 @@ If <tt><i>?transcoder</i></tt> is present and not <tt>#f</tt>, it must be a
 transcoder, and this procedure returns a textual input port
 whose transcoder is <tt><i>?transcoder</i></tt>.
 Otherwise, this procedure returns a binary input port.
-See the lead-in to Section&nbsp;<a href="tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
+See the lead-in to Section&nbsp;<a href="http://scheme.com/tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
 for a description of the constraints on and effects of the other
 arguments.
 
@@ -1452,7 +1452,7 @@ whose transcoder is <tt><i>?transcoder</i></tt>.
 Otherwise, this procedure returns a binary input port.
 The buffer mode <tt><i>b-mode</i></tt> defaults to <tt>block</tt>, which differs from
 <tt>block</tt> in <i>Chez&nbsp;Scheme</i> only for textual output ports.
-See the lead-in to Section&nbsp;<a href="tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
+See the lead-in to Section&nbsp;<a href="http://scheme.com/tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
 for a description of the constraints on and effects of the other
 arguments.
 
@@ -2043,7 +2043,7 @@ is possible that another continuation created inside of <tt><i>procedure</i></tt
 invoked at a later time, returning control to <tt><i>procedure</i></tt>.
 If <tt><i>procedure</i></tt> does not return, an implementation is free to close the
 output port only if it can prove that the output port is no longer accessible.
-As shown in Section&nbsp;<a href="tspl4/./control.html#g102">5.6</a> of <i>The Scheme Programming Language, 4th Edition</i>, <tt>dynamic-wind</tt> may be used to
+As shown in Section&nbsp;<a href="http://scheme.com/tspl4/./control.html#g102">5.6</a> of <i>The Scheme Programming Language, 4th Edition</i>, <tt>dynamic-wind</tt> may be used to
 ensure that the port is closed if a continuation created outside of
 <tt><i>procedure</i></tt> is invoked.
 
@@ -2104,7 +2104,7 @@ If <tt><i>?transcoder</i></tt> is present and not <tt>#f</tt>, it must be a
 transcoder, and this procedure returns a textual output port
 whose transcoder is <tt><i>?transcoder</i></tt>.
 Otherwise, this procedure returns a binary output port.
-See the lead-in to Section&nbsp;<a href="tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
+See the lead-in to Section&nbsp;<a href="http://scheme.com/tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
 for a description of the constraints on and effects of the other
 arguments.
 
@@ -2126,7 +2126,7 @@ whose transcoder is <tt><i>?transcoder</i></tt>.
 Otherwise, this procedure returns a binary output port.
 The buffer mode <tt><i>b-mode</i></tt> defaults to <tt>line</tt>, which differs from
 <tt>block</tt> in <i>Chez&nbsp;Scheme</i> only for textual output ports.
-See the lead-in to Section&nbsp;<a href="tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
+See the lead-in to Section&nbsp;<a href="http://scheme.com/tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
 for a description of the constraints on and effects of the other
 arguments.
 
@@ -2151,7 +2151,7 @@ transcoder, and this procedure returns a textual output port
 whose transcoder is <tt><i>?transcoder</i></tt>.
 Otherwise, this procedure returns a binary output port.
 The buffer mode <tt><i>b-mode</i></tt> defaults to <tt>none</tt>.
-See the lead-in to Section&nbsp;<a href="tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
+See the lead-in to Section&nbsp;<a href="http://scheme.com/tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
 for a description of the constraints on and effects of the other
 arguments.
 
@@ -2342,7 +2342,7 @@ If <tt><i>?transcoder</i></tt> is present and not <tt>#f</tt>, it must be a
 transcoder, and this procedure returns a textual input/output port
 whose transcoder is <tt><i>?transcoder</i></tt>.
 Otherwise, this procedure returns a binary input/output port.
-See the lead-in to Section&nbsp;<a href="tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
+See the lead-in to Section&nbsp;<a href="http://scheme.com/tspl4/./io.html#g123">7.2</a> of <i>The Scheme Programming Language, 4th Edition</i>
 for a description of the constraints on and effects of the other
 arguments.
 
@@ -2897,7 +2897,7 @@ Again, please consult a Common Lisp reference for complete documentation.
 
 <p>
 An implementation of a greatly simplified version of <tt>format</tt>
-appears in Section&nbsp;<a href="tspl4/./examples.html#g180">12.6</a> of <i>The Scheme Programming Language, 4th Edition</i>.
+appears in Section&nbsp;<a href="http://scheme.com/tspl4/./examples.html#g180">12.6</a> of <i>The Scheme Programming Language, 4th Edition</i>.
 
 
 <p>
@@ -4728,7 +4728,7 @@ subprocess is terminated.
 Copyright &copy; 2016 Cisco Systems, Inc.<br>
 Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a>
 (<a class=plain href="canned/copyright.html">full copyright notice.</a>).</br>
-Revised May 2016 for Chez Scheme Version 9.4<br>
+Revised May 2016 for Chez Scheme Version 9.4.1<br>
 <a class=plain href="canned/about.html">about this book</a>
 </tr></table>
 </body>
